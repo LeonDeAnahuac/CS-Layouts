@@ -1,0 +1,133 @@
+.header {
+    background-color: #3b5998;
+    height: 70px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.container {   
+    background-color: rgb(233, 235, 240);
+    padding: 10px 50px 20px 50px; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.container h2 {
+    margin-top: 0;
+    color: #111;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.container form {
+    margin-top: 10px;
+}
+
+.container input {
+    font-size: 120%;
+    display: block;
+    margin: 4px 0 2px 0;
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+    border-radius: 0.2em;
+}
+
+.container input:focus {
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
+
+.signup {
+    width: 40%;
+}
+
+.welcome {
+    width: 60%;
+
+} 
+
+.welcome img {
+    display: block;
+    margin: 0 auto;
+}
+
+.welcome h2 {
+    text-align: center;
+}
+
+#signup-button {
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0px 2px 2px #000;
+    padding: 6px 13px;
+    background-color: #72aa70;
+    margin: 10px auto;
+    border: 1px solid #000;
+}
+
+#signup-button:hover {
+    background-color: #a5d4a3;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {    
+        padding: 10px 20px 0px 20px;
+    }
+
+    .welcome img {
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 770px) { 
+    
+    .container {
+        flex-flow: column nowrap;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .signup {
+        width: 100%;
+    }
+    
+    .signup p {
+        text-align: center;
+    }
+    .welcome {
+        width: 100%;
+    
+    } 
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container input {
+        margin: 0 auto;
+    }
+
+    .welcome {
+        margin-top: 10px;
+    }
+
+    .welcome img {
+        display: block;
+        margin: 0 auto;
+    }
+}

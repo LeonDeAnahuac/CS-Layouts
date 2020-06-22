@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <span></span>
+        </div>
+        <nav class="navbar-menu">
+            <ul class="menu-listing">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Script</a></li>
+                <li><a href="#">Net</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="logo"></div>
+    </div>
+    <div class="container">
+        <div class="signup">
+            <h2>Sign Up</h2>
+            <p>It's quick and easy</p>
+            <form>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Password">
+                <input type="submit" value="Sign Up" id="signup-button">
+            </form>
+        </div>
+        <div class="welcome">
+            <h2>Join Now!</h2>
+            <img src="img/fake-people.jpg" class="responsive-img">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Derechos reservados</p>
+    </div>
+    <script>
+        $(".menu").click(function(){
+            $(".menu").toggleClass("active");
+            $(".navbar-menu").toggleClass("active");
+        });
+    </script>
+</body>
+</html>
