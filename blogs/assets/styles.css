@@ -66,5 +66,37 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #FFF;
+	background-color: #FFF;
+	color: #000;
+	font-size: 1.6em;
+	padding-top: 10px;
+}
+
+.container h1 {
+	color: rgb(7, 75, 22);
+	font-size: 1.8em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#blogs {
+	margin-top: 10px;
+}
+
+article {
+	border: 1px solid rgb(80, 59, 14);
+	margin: 22px 0px;
+}
+
+article h2 {
+	color: #FFF;
+	background-color: rgb(83, 13, 13);
+	font-size: 1.3em;
+	padding: 7px 0px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+article p {
+	padding: 8px;
 }
