@@ -1,0 +1,225 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    font-size: 62.5%;
+    color: #FFF;
+}
+/*CSS Reset*/
+body {
+    background-color:#000;
+}
+
+.banner {
+    height: 88px;
+    border-bottom: 1px solid #FFFF00;
+    position: fixed;
+    width: 100%;
+    padding-left: 90px;
+    background-color: #000;
+}
+
+h1.logo {
+    color: #FFF;
+    position: relative;
+    padding-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.logo-img {
+    position: absolute;
+    left: -38px;
+    top: 15px;
+}
+
+.first-column, .second-column{
+    box-sizing: border-box;
+    float: left;
+}
+
+.first-column {
+    width: 40%;
+}
+
+.second-column {
+    width: 60%;
+}
+
+.mainNav {
+    padding-top: 18px;
+}
+
+.mainNav li {
+    float: left;
+    margin-left: 3px;
+}
+
+.mainNav a{
+    background-color: #ee432e;
+    background-image: -webkit-linear-gradient(top, #ee432e 0%, 	#c63929 50%,#b51700 50%, #891100 100%);
+	background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 	50%, #b51700 50%, #891100 100%);
+	background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 	50%, #b51700 50%, #891100 100%);
+    background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, 	#b51700 50%, #891100 100%);
+	border: 1px solid #951100;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 	1px 3px #333333;
+	padding: 12px 20px 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 1.5em; 
+    color: #FFF;   
+    display: block;
+}
+
+.mainNav a:hover {
+    transform: scale(1.3);
+    color: #000;
+}
+
+.body {
+    margin-top: 90px;
+    border-bottom: 1px solid rgb(238, 224, 224);
+    margin-bottom: 10px;
+}
+
+.bienvenida {
+    color: #000;
+    font-size: 2em;
+    border-bottom: 2px black solid;
+    background: url(../img/paper.png) no-repeat 3px 5px;
+    padding: 10px 2px 8px 33px;
+    margin: 0;
+    background-color: #ecde10;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productos {
+    margin: 15px auto 5px auto;
+    width: 1000px;
+}
+
+h2.secciones {
+    text-transform: uppercase;
+    color: #ecde10;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 5px 0 5px 0;
+}
+
+.body p {
+    font-size: 1.7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .1em;
+}
+
+.seccion-hamburguesas, .seccion-papasfritas, .seccion-bebidas {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 0.5em 0 0.5em;
+}
+
+a.button-mas {
+    background: url(../img/next.png) no-repeat right 2px;
+    display: block;
+    margin: 50px auto 15px auto;
+    background-color: rgb(192, 17, 99);
+    width: 120px;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    padding: 7px 36px 7px 12px;
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+
+a.button-mas:hover {
+    background-color: rgb(150, 13, 77);
+}
+
+
+.especial {
+    color: #000;
+    font-size: 2em;
+    border-bottom: 2px black solid;
+    background: url(../img/like.png) no-repeat 3px 5px;
+    padding: 10px 2px 8px 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ecde10;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.especialidades {
+    margin: 15px auto 5px auto;
+    width: 1000px;
+}
+
+.seccion-texana, .seccion-varios {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.footer {
+    padding: 15px 0 15px 15px;
+    background-color: #dddace; 
+}
+
+.socialmedia {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
