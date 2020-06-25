@@ -100,3 +100,15 @@ article h2 {
 article p {
 	padding: 8px;
 }
+
+@media only screen and (min-width: 800px) {
+	#blogs {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	article {
+		flex: 0 1 32%;
+	}
+}
