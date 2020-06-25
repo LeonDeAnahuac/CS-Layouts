@@ -101,6 +101,12 @@ article p {
 	padding: 8px;
 }
 
+.footer img {
+	width: 30px;
+	height: 30px;
+	margin: 6px;
+}
+
 @media only screen and (min-width: 800px) {
 	#blogs {
 		display: flex;
@@ -111,4 +117,14 @@ article p {
 	article {
 		flex: 0 1 32%;
 	}
+
+	.footer img {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.footer {
+	background-color: rgba(50,50,50);
+	padding: 5px;
 }
